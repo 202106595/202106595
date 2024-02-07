@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+       
+       
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+header a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+.main-content {
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Slideshow styles */
+
+
+
+
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image-section {
+    flex-shrink: 0;
+    width: 50%; /* Adjust the width as needed */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.highlighted-name {
+    font-weight: bold;
+    font: bolder;
+    font-size: 20px;
+    color: #ff6600; /* Customize the color as needed */
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+
